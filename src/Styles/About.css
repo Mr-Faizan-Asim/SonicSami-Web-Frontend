@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Optional: Adjust the height based on your requirements */
+}
+.imgContainer {
+  height: 60%;
+  text-align: center;
+  width: 40%;
+}
+
+.imgContainer img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1.5em 0 0 1.5em;
+  align-items: center;
+}
+
+.details {
+  width: 45%;
+  text-align: center;
+  text-align: left;
+  margin: 0.6em 2em;
+}
+
+.product {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #70768f;
+  letter-spacing: 5px;
+  margin: 1em 0;
+  line-height: normal;
+}
+
+.productTitle {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: "Fraunces", sans-serif;
+  margin: 0.6em 0 0.7em 0;
+  line-height: 1em;
+}
+
+.desc{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #70768f;
+    line-height: normal;
+    margin-bottom: 1.5em;
+}
+
+.sellPrice{
+    color: #35705A;
+    margin-right: 0.3em;
+}
+
+.originalPrice{
+    text-decoration: line-through;
+}
+
+.btn{
+    margin: 3em 0 1em 0;
+    padding: 1em 0;
+    width: 100%;
+    background-color: #35705A;
+    border-radius: 0.7em;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    color: #fff ;
+}
+
+.btnImg{
+    margin-right: 1.5rem;
+}
+
+.btnText{
+    color: #fff;
+}
