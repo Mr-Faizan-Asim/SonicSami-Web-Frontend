@@ -28,18 +28,7 @@ const About = () => {
               </p>
           </div>
   </div>
-  <div className="center-container">
-      
-      <div className="imgContainer">
-              <img src="https://media.licdn.com/dms/image/D4E03AQH5glDKHQAgGg/profile-displayphoto-shrink_400_400/0/1705491008495?e=1711584000&v=beta&t=SJzxZZhFGQjHIh_fjUp_JBSf2yVf4YgZop4fwvjEf80" alt="Mug" />
-          </div>
-          <div class="details">
-              <p class="product">Ayesha Khalid</p>
-              <h2 class="productTitle">Computer Scientist</h2>
-              <p class="desc">
-              </p>
-          </div>
-  </div>
+ 
     </>
   )
 }
